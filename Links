@@ -1,0 +1,164 @@
+# Important Resources Used
+
+## Official Documentation
+
+### AI & ML Frameworks
+- **FAISS Documentation**: https://github.com/facebookresearch/faiss
+  - Vector database implementation guide
+  - Index types and performance optimization
+  
+- **Sentence Transformers**: https://www.sbert.net/
+  - all-MiniLM-L6-v2 model documentation
+  - Embedding generation tutorials
+
+- **LangChain Documentation**: https://python.langchain.com/docs/
+  - RAG pipeline implementation
+  - Retrieval chains and prompt templates
+
+- **OpenAI API Documentation**: https://platform.openai.com/docs
+  - GPT-4 API reference
+  - Embedding models (text-embedding-ada-002)
+
+### Python Libraries
+- **NumPy Documentation**: https://numpy.org/doc/
+  - Array operations and numerical computing
+  
+- **Pandas Documentation**: https://pandas.pydata.org/docs/
+  - DataFrame manipulation and CSV operations
+
+- **asyncio Documentation**: https://docs.python.org/3/library/asyncio.html
+  - Concurrent programming in Python
+
+### UI Framework
+- **Gradio Documentation**: https://gradio.app/docs
+  - Building interactive interfaces
+  - Google Colab deployment guide
+
+---
+
+## Research Papers & Articles
+
+### RAG Systems
+- **"Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks"**
+  - Original RAG paper by Facebook AI
+  - https://arxiv.org/abs/2005.11401
+
+- **"Dense Passage Retrieval for Open-Domain Question Answering"**
+  - DPR methodology
+  - https://arxiv.org/abs/2004.04906
+
+### Evaluation Metrics
+- **ROUGE Metrics**: https://aclanthology.org/W04-1013/
+  - Understanding recall-oriented evaluation
+
+- **BERTScore Paper**: https://arxiv.org/abs/1904.09675
+  - Semantic similarity measurement
+
+---
+
+## Tools & Platforms
+
+### Development Environment
+- **Google Colab**: https://colab.research.google.com/
+  - Free GPU access (T4/A100)
+  - Jupyter notebook hosting
+
+- **GitHub Repository**: https://github.com/oscarecortez361/ai-course-copilot-phase03
+  - Our team's project code and documentation
+
+### Experiment Tracking
+- **Weights & Biases (W&B)**: https://wandb.ai/
+  - ML experiment tracking
+  - Performance visualization dashboards
+
+---
+
+## Course-Specific Resources
+
+### ITAI-2277 Materials
+- Course syllabus and grading policy
+- Assignment requirements and rubrics
+- Lecture notes and supplementary materials
+- Approved document allow-list for RAG system
+
+### Team Collaboration
+- **Google Colab Notebook (View-Only)**: 
+  https://colab.research.google.com/drive/1wi_w2jAf26VI0QyrWZP9movX6DGQM6g9#scrollTo=6fGZbgzXz-Uc
+  - Live demo environment
+  - Reproducible results
+
+---
+
+## Learning Resources
+
+### RAG System Tutorials
+- **LangChain RAG Tutorial**: https://python.langchain.com/docs/tutorials/rag/
+- **Building RAG Systems from Scratch**: https://www.pinecone.io/learn/retrieval-augmented-generation/
+- **FAISS Tutorial**: https://www.pinecone.io/learn/series/faiss/
+
+### Python Best Practices
+- **Async Programming Guide**: https://realpython.com/async-io-python/
+- **NumPy Quickstart**: https://numpy.org/doc/stable/user/quickstart.html
+- **Pandas Getting Started**: https://pandas.pydata.org/docs/getting_started/index.html
+
+### Prompt Engineering
+- **OpenAI Prompt Engineering Guide**: https://platform.openai.com/docs/guides/prompt-engineering
+- **Best Practices for LLM Applications**: https://www.anthropic.com/index/prompting-best-practices
+
+---
+
+## Datasets & Models
+
+### Pre-trained Models Used
+- **all-MiniLM-L6-v2**: Sentence embedding model (HuggingFace)
+  - https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2
+  
+- **ms-marco-MiniLM**: Cross-encoder reranker
+  - https://huggingface.co/cross-encoder/ms-marco-MiniLM-L-6-v2
+
+- **OpenAI GPT-4**: Answer generation
+  - Accessed via OpenAI API
+
+### BM25 Baseline
+- **rank-bm25**: Python implementation
+  - https://github.com/dorianbrown/rank_bm25
+
+---
+
+## Troubleshooting & Community
+
+### Stack Overflow Tags
+- `[langchain]` - RAG pipeline questions
+- `[faiss]` - Vector database issues
+- `[sentence-transformers]` - Embedding problems
+
+### GitHub Issues
+- FAISS installation troubleshooting
+- LangChain integration examples
+- Gradio deployment guides
+
+### Community Forums
+- **LangChain Discord**: Real-time help for RAG systems
+- **HuggingFace Forums**: Model selection and fine-tuning advice
+
+---
+
+## Performance Benchmarking
+
+### Metrics Reference
+- **Information Retrieval Metrics Explained**: https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)
+- **Understanding MRR, Precision, Recall**: https://medium.com/@m_n_malaeb/recall-and-precision-at-k-for-recommender-systems-618483226c54
+
+---
+
+## Deployment Resources
+
+### Cloud Platforms
+- **Google Colab Pro**: Extended runtime and better GPUs
+- **AWS for AI/ML**: Scalable compute options
+- **HuggingFace Spaces**: Free hosting for demos
+
+### Production Considerations
+- **FastAPI Documentation**: https://fastapi.tiangolo.com/
+- **Docker for ML**: Containerization best practices
+- **API Rate Limiting**: Strategies for production systems
