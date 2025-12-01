@@ -14,6 +14,47 @@ This repository showcases my work throughout the AI Applications course, demonst
 
 ## 🎯 Course Projects
 
+---
+### **CapStone Final: Simple Python AI Agent**
+**Grade:** Submitted
+
+Designed a Python AI agent using Semantic Kernel-inspired architecture.
+
+**Features:**
+- Kernel-based task routing system
+- Modular skills: greeting, addition, subtraction, multiplication, farewell
+- Command-line interface for interaction
+- Input validation and error handling
+
+**Learning:**
+- Watched 3 AI Agents Hackathon 2025 recorded sessions
+- Applied Semantic Kernel concepts (kernel + skills structure)
+- Built offline, local agent without external APIs
+
+**Technologies:** Python, Semantic Kernel concepts
+
+
+### **Phase 05: Final Project Delivery** (Module 07)
+**Grade:** Submitted | **Team Project**
+
+Completed final delivery of the AI Course Copilot with comprehensive documentation and technical report.
+
+**Final Deliverables:**
+- Fully working prototype in Google Colab with Gradio interface
+- FAISS vector-based retrieval backend
+- Complete technical report documenting all five project phases
+- User guide and system documentation
+
+**System validated through testing:**
+- Successfully answered core course questions (grading, capstone requirements, attendance policies)
+- Citations accurately pointed to source documents
+- System gracefully indicates uncertainty when information is outside dataset
+
+**Team:** Oscar Cortez, Judith Barrios, Ruben Valenzuela Alvarado
+
+**Repository:** [Phase 05 GitHub](https://github.com/oscarecortez361/ai-course-copilot-phase03/tree/main/phase05)
+
+
 ### **AI Course Copilot - RAG System** (Phase 04)
 **Module 6: System Integration (Weeks 11-13)**  
 **Grade:** Not Yet Graded | **Team Project**
